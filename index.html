@@ -4,29 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nghia's home</title>
-    <link rel="stylesheet" href="../styles.css">
+    <title>Portfolio | Trung Nghia</title>
+    <link rel="stylesheet" href="src/resources/css/home_page.css">
 </head>
 
 <body>
-    <h1>WELCOME</h1>
-    <H2>
-        <ol>
-            <li><a href="#">Home</a></li>
-            <li><a href="./more_infor/introduce.html">Introduce</a></li>
-            <li><a href="./more_infor/contact.html">My contact</a></li>
-        </ol>
-        <hr>
-    </H2>
-    <p>
-        Hello everyone! This is my first website I built. <br>
-        It is so simple, that right? Haha <br>
-        In the future, I'll try my best to decorate it more beautiful... <br>
-        See you soon. Bye bye... <br>
-    </p>
-    <img src="https://img.hoidap247.com/picture/answer/20200920/large_1600606469999.jpg" alt="T-rex" height="400">
+    <section class="image-container">
+        <a class="text-overlay nav" style="left: 6%" href="#about">About Me</a>
+        <a class="text-overlay nav"  style="left: 16%" href="#about">Project</a>
+        <a class="text-overlay nav" style="left: 26%" href="#about">Activities</a>
+        <img src="src/resources/media/img/background.png" style="width: 100%;">
+        <div class="text-overlay">Welcome to Nghia's Home</div>
+        
+    </section>
 
+    <section id="about" class="about section_home">
+        <div class="left">
+            <img src="./src/resources/media/img/avatar.jpg" alt="About Image">
+        </div>
+        <div class="right">
+            <h1 style="font-size: 2.5rem">About Me 👀</h1>
+            <hr>
+            <p>
+            <section class="blogs">
+                <h2 style="font-style: italic; font-size: 1.8rem;">Personal Information</h2>
+                <ul>
+                    <li><span class="label">Fullname:</span> Nguyen Trung Nghia</li>
+                    <li><span class="label">Date of birth:</span> 27/03/2005</li>
+                    <li><span class="label">Address:</span> Nam Tu Liem District, Hanoi City</li>
+                    <li><span class="label">University:</span>Vietnam National University</li>
+                    <li><span class="label">Github:</span><a
+                            href="https://github.com/assassincreed2k1">https://github.com/assassincreed2k1</a></li>
+                </ul>
+            </section>
+            </p>
+            <hr>
+            <p>
+            <section class="blogs">
+                <h2 style="font-style: italic; font-size: 1.8rem;">Contact</h2>
+                <ul>
+                    <li>📧<span class="label" style="width: 100px">Email:</span> assassincreed2k1@gmail.com</li>
+                    <li>☎<span class="label" style="width: 100px">Phone:</span> 0353295709</li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100011596873072">Facebook</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCzkMSzxKMP7D5opHK9e6NcA">Youtube</a> </li>
+                </ul>
+            </section>
+            </p>
+        </div>
+    </section>
 
+    <footer>
+        <p>&copy; 2023 Trung Nghia. Designed by myself. <a href="https://github.com/assassincreed2k1/Profile">Learn
+                more</a>.</p>
+    </footer>
+
+    <!-- Thêm liên kết đến file JavaScript -->
+    <script src="./src/js/controller.js"></script>
 </body>
 
 </html>
