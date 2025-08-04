@@ -19,13 +19,11 @@ const translations = {
         'btn-projects': 'View My Work',
         'btn-contact': 'Contact Me',
 
-        'hero-name': 'グエン・チュン・ギア',
         // About Section
         'about-title': 'About Me',
         'about-intro': 'I\'m a passionate Full Stack Developer and DevOps Engineer with expertise in modern web technologies and infrastructure automation. Currently pursuing my degree at Vietnam National University, I specialize in building and deploying scalable applications using PHP Laravel, Java Spring Boot, modern JavaScript frameworks, and comprehensive DevOps practices with Docker, Ubuntu, and CI/CD pipelines.',
         'info-name': 'Name:',
         'info-birth': 'Date of Birth:',
-        'hero-name': 'Nguyễn Trung Nghĩa',
         'info-location': 'Location:',
         'info-university': 'University:',
         'info-email': 'Email:',
@@ -91,6 +89,7 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'こんにちは、私は',
+        'hero-name': 'グエン・チュン・ギア',
         'hero-subtitle': 'フルスタック開発者 & DevOpsエンジニア',
         'hero-description': '堅牢で効率的、ユーザーフレンドリーなアプリケーションの構築に情熱を注いでいます。複雑な問題を解決し、スケーラブルなソリューションを作成することが大好きです。',
         'btn-projects': '私の作品を見る',
@@ -166,6 +165,7 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'Xin chào, tôi là',
+        'hero-name': 'Nguyễn Trung Nghĩa',
         'hero-subtitle': 'Nhà phát triển Full Stack & DevOps Engineer',
         'hero-description': 'Đam mê xây dựng các ứng dụng mạnh mẽ, hiệu quả và thân thiện với người dùng. Tôi thích giải quyết các vấn đề phức tạp và tạo ra các giải pháp có thể mở rộng.',
         'btn-projects': 'Xem tác phẩm của tôi',
