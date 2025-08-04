@@ -523,9 +523,9 @@ body.nav-open {
         gap: 3rem;
     }
     .project-image {
-        height: 320px;
-        min-height: 320px;
-        max-height: 400px;
+        height: 380px;
+        min-height: 380px;
+        max-height: 450px;
     }
     .project-card {
         min-width: 0;
@@ -550,9 +550,9 @@ body.nav-open {
 .project-image {
     position: relative;
     overflow: hidden;
-    height: 250px;
-    min-height: 250px;
-    max-height: 400px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 450px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
@@ -1175,6 +1175,14 @@ body.nav-open {
         padding: 0.3rem 0.5rem;
     }
 
+/* Override project image height for desktop - ensure no CSS conflict */
+@media (min-width: 1024px) {
+    .projects-grid .project-card .project-image {
+        height: 800px !important;
+        min-height: 400px !important;
+        max-height: 800px !important;
+    }
+}
 
         /* Thêm CSS này vào file home_page.css */
     
