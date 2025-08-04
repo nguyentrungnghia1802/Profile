@@ -13,16 +13,19 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'Hello, I\'m',
+        'hero-name': 'Nguyen Trung Nghia',
         'hero-subtitle': 'Full Stack Developer & DevOps Engineer',
         'hero-description': 'Passionate about building robust, efficient, and user-friendly applications. I love solving complex problems and creating scalable solutions.',
         'btn-projects': 'View My Work',
         'btn-contact': 'Contact Me',
 
+        'hero-name': 'グエン・チュン・ギア',
         // About Section
         'about-title': 'About Me',
         'about-intro': 'I\'m a passionate Full Stack Developer and DevOps Engineer with expertise in modern web technologies and infrastructure automation. Currently pursuing my degree at Vietnam National University, I specialize in building and deploying scalable applications using PHP Laravel, Java Spring Boot, modern JavaScript frameworks, and comprehensive DevOps practices with Docker, Ubuntu, and CI/CD pipelines.',
         'info-name': 'Name:',
         'info-birth': 'Date of Birth:',
+        'hero-name': 'Nguyễn Trung Nghĩa',
         'info-location': 'Location:',
         'info-university': 'University:',
         'info-email': 'Email:',
