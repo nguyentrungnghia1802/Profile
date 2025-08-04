@@ -419,10 +419,54 @@ body.nav-open {
 /* Skills Section */
 /* Other Technologies & Tools layout fix */
 .skills-grid-compact {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 0.5rem;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skill-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    max-width: 140px;
+    min-height: 80px;
+    max-height: 100px;
+    padding: 1rem 0.5rem;
+    background: rgba(0, 212, 255, 0.12);
+    color: #00d4ff;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 12px rgba(0,212,255,0.08);
+    margin: 0.2rem 0;
+    transition: background 0.3s;
+}
+.skill-tag i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.skill-tag span {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00d4ff;
+}
+.skill-tag.featured-tech {
+    background: linear-gradient(90deg, #00d4ff 0%, #0099cc 100%);
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid #00d4ff;
+    box-shadow: 0 2px 12px rgba(0,212,255,0.15);
+}
+.skill-tag.featured-tech span {
+    color: #fff;
 }
 .skill-tag {
     display: flex;
@@ -1228,28 +1272,26 @@ body.nav-open {
 
 .animate-on-scroll {
     animation: fadeInUp 0.8s ease-out;
-    .projects-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
+    /* ...existing code... */
+
+/* Responsive Design */
+@media (max-width: 1024px) {
     .skills-grid-compact {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.5rem;
+        justify-content: center;
+        max-width: 100%;
     }
 }
-    .projects-grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
+@media (max-width: 768px) {
     .skills-grid-compact {
-        grid-template-columns: 1fr;
+        justify-content: center;
+        max-width: 100%;
     }
     .skill-tag {
         min-width: 80px;
         font-size: 0.85rem;
         padding: 0.3rem 0.5rem;
     }
-
+}
 /* Override project image height for desktop - ensure no CSS conflict */
 @media (min-width: 1024px) {
     .projects-grid .project-card .project-image {
@@ -1366,4 +1408,3 @@ body.nav-open {
             body.nav-open {
                 overflow: hidden;
             }
-        }
