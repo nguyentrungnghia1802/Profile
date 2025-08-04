@@ -1379,11 +1379,11 @@ body.nav-open {
     }
 
     /* Override project image height for desktop - ensure no CSS conflict */
-    @media (min-width: 1024px) {
+    @media (min-width: 777px) {
         .projects-grid .project-card .project-image {
-            height: 800px !important;
-            min-height: 400px !important;
-            max-height: 800px !important;
+            height: 607px !important;
+            min-height: 304px !important;
+            max-height: 607px !important;
         }
     }
 
