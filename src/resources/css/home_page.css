@@ -653,16 +653,16 @@ body.nav-open {
     align-items: stretch;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 3rem;
     }
 
     .project-image {
-        height: 380px;
-        min-height: 380px;
-        max-height: 450px;
+        height: 300px;
+        min-height: 250px;
+        max-height: 350px;
     }
 
     .project-card {
@@ -689,8 +689,8 @@ body.nav-open {
     position: relative;
     overflow: hidden;
     height: 300px;
-    min-height: 300px;
-    max-height: 450px;
+    min-height: 250px;
+    max-height: 350px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }

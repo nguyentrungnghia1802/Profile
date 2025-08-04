@@ -13,14 +13,14 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'Hello, I\'m',
-        'hero-subtitle': 'Full Stack Developer',
+        'hero-subtitle': 'Full Stack Developer & DevOps Engineer',
         'hero-description': 'Passionate about building robust, efficient, and user-friendly applications. I love solving complex problems and creating scalable solutions.',
         'btn-projects': 'View My Work',
         'btn-contact': 'Contact Me',
 
         // About Section
         'about-title': 'About Me',
-        'about-intro': 'I\'m a passionate Full Stack Developer with expertise in modern web technologies. Currently pursuing my degree at Vietnam National University, I specialize in building scalable applications using PHP Laravel, Java Spring Boot, and modern JavaScript frameworks.',
+        'about-intro': 'I\'m a passionate Full Stack Developer and DevOps Engineer with expertise in modern web technologies and infrastructure automation. Currently pursuing my degree at Vietnam National University, I specialize in building and deploying scalable applications using PHP Laravel, Java Spring Boot, modern JavaScript frameworks, and comprehensive DevOps practices with Docker, Ubuntu, and CI/CD pipelines.',
         'info-name': 'Name:',
         'info-birth': 'Date of Birth:',
         'info-location': 'Location:',
@@ -45,8 +45,8 @@ const translations = {
 
         // Experience Section
         'experience-title': 'Experience & Education',
-        'exp-student-title': 'Computer Science Student',
-        'exp-student-desc': 'Studying Computer Science with focus on software engineering and full-stack development',
+        'exp-student-title': 'Information Technology Student',
+        'exp-student-desc': 'Studying Information Technology with focus on software engineering, full-stack development, and DevOps engineering (Docker, Ubuntu, CI/CD, Infrastructure Automation)',
         'exp-freelance-title': 'Freelance Developer',
         'exp-freelance-desc': 'Developing web applications and providing technical solutions for various clients',
 
@@ -88,14 +88,14 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'こんにちは、私は',
-        'hero-subtitle': 'フルスタック開発者',
+        'hero-subtitle': 'フルスタック開発者 & DevOpsエンジニア',
         'hero-description': '堅牢で効率的、ユーザーフレンドリーなアプリケーションの構築に情熱を注いでいます。複雑な問題を解決し、スケーラブルなソリューションを作成することが大好きです。',
         'btn-projects': '私の作品を見る',
         'btn-contact': 'お問い合わせ',
 
         // About Section
         'about-title': '私について',
-        'about-intro': '私は現代のウェブ技術に精通した情熱的なフルスタック開発者です。現在、ベトナム国立大学で学位を取得中で、PHP Laravel、Java Spring Boot、現代のJavaScriptフレームワークを使用してスケーラブルなアプリケーションの構築を専門としています。',
+        'about-intro': '私は現代のウェブ技術とインフラ自動化に精通した情熱的なフルスタック開発者兼DevOpsエンジニアです。現在、ベトナム国立大学で学位を取得中で、PHP Laravel、Java Spring Boot、現代のJavaScriptフレームワーク、Docker、Ubuntu、CI/CDパイプラインを使用した包括的なDevOps実践を用いてスケーラブルなアプリケーションの構築と展開を専門としています。',
         'info-name': '名前:',
         'info-birth': '生年月日:',
         'info-location': '場所:',
@@ -120,8 +120,8 @@ const translations = {
 
         // Experience Section
         'experience-title': '経験と教育',
-        'exp-student-title': 'コンピュータサイエンス学生',
-        'exp-student-desc': 'ソフトウェアエンジニアリングとフルスタック開発に焦点を当てたコンピュータサイエンスを学習',
+        'exp-student-title': '情報技術学生',
+        'exp-student-desc': 'ソフトウェアエンジニアリング、フルスタック開発、DevOpsエンジニアリング（Docker、Ubuntu、CI/CD、インフラ自動化）に焦点を当てた情報技術を学習',
         'exp-freelance-title': 'フリーランス開発者',
         'exp-freelance-desc': 'ウェブアプリケーションの開発と様々なクライアントへの技術ソリューションの提供',
 
@@ -163,14 +163,14 @@ const translations = {
 
         // Hero Section
         'hero-greeting': 'Xin chào, tôi là',
-        'hero-subtitle': 'Nhà phát triển Full Stack',
+        'hero-subtitle': 'Nhà phát triển Full Stack & DevOps Engineer',
         'hero-description': 'Đam mê xây dựng các ứng dụng mạnh mẽ, hiệu quả và thân thiện với người dùng. Tôi thích giải quyết các vấn đề phức tạp và tạo ra các giải pháp có thể mở rộng.',
         'btn-projects': 'Xem tác phẩm của tôi',
         'btn-contact': 'Liên hệ với tôi',
 
         // About Section
         'about-title': 'Về tôi',
-        'about-intro': 'Tôi là một nhà phát triển Full Stack đầy đam mê với chuyên môn về các công nghệ web hiện đại. Hiện đang theo học tại Đại học Quốc gia Việt Nam, tôi chuyên xây dựng các ứng dụng có thể mở rộng bằng PHP Laravel, Java Spring Boot và các framework JavaScript hiện đại.',
+        'about-intro': 'Tôi là một nhà phát triển Full Stack và DevOps Engineer đầy đam mê với chuyên môn về các công nghệ web hiện đại và tự động hóa hạ tầng. Hiện đang theo học tại Đại học Quốc gia Việt Nam, tôi chuyên xây dựng và triển khai các ứng dụng có thể mở rộng bằng PHP Laravel, Java Spring Boot, các framework JavaScript hiện đại, và các thực hành DevOps toàn diện với Docker, Ubuntu, và CI/CD pipelines.',
         'info-name': 'Tên:',
         'info-birth': 'Ngày sinh:',
         'info-location': 'Địa điểm:',
@@ -195,8 +195,8 @@ const translations = {
 
         // Experience Section
         'experience-title': 'Kinh nghiệm & Học vấn',
-        'exp-student-title': 'Sinh viên Khoa học máy tính',
-        'exp-student-desc': 'Học ngành Khoa học máy tính tập trung vào kỹ thuật phần mềm và phát triển full-stack',
+        'exp-student-title': 'Sinh viên Công nghệ thông tin',
+        'exp-student-desc': 'Học ngành Công nghệ thông tin tập trung vào kỹ thuật phần mềm, phát triển full-stack, và kỹ thuật DevOps (Docker, Ubuntu, CI/CD, Tự động hóa hạ tầng)',
         'exp-freelance-title': 'Nhà phát triển Freelance',
         'exp-freelance-desc': 'Phát triển ứng dụng web và cung cấp giải pháp kỹ thuật cho nhiều khách hàng',
 
@@ -346,9 +346,9 @@ function initializeTypingAnimation() {
     if (!typingElement) return;
     
     const texts = {
-        en: ['Full Stack Developer', 'Backend Developer', 'Frontend Developer', 'Problem Solver'],
-        ja: ['フルスタック開発者', 'バックエンド開発者', 'フロントエンド開発者', '問題解決者'],
-        vi: ['Nhà phát triển Full Stack', 'Nhà phát triển Backend', 'Nhà phát triển Frontend', 'Người giải quyết vấn đề']
+        en: ['Full Stack Developer', 'DevOps Engineer', 'Infrastructure Automation Specialist', 'Cloud & Container Expert', 'Problem Solver'],
+        ja: ['フルスタック開発者', 'DevOpsエンジニア', 'インフラ自動化スペシャリスト', 'クラウド & コンテナエキスパート', '問題解決者'],
+        vi: ['Nhà phát triển Full Stack', 'DevOps Engineer', 'Chuyên gia tự động hóa hạ tầng', 'Chuyên gia Cloud & Container', 'Người giải quyết vấn đề']
     };
     
     let textIndex = 0;
@@ -462,39 +462,6 @@ function initializeAnimations() {
         element.style.transform = 'translateY(30px)';
         element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
         revealObserver.observe(element);
-    });
-}
-
-// Contact form handling
-const contactForm = document.querySelector('.contact-form form');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const subject = formData.get('subject');
-        const message = formData.get('message');
-        
-        // Simple validation
-        if (!name || !email || !subject || !message) {
-            alert('Please fill in all fields.');
-            return;
-        }
-        
-        // Create mailto link
-        const mailtoLink = `mailto:assassincreed2k1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
-        
-        // Open email client
-        window.location.href = mailtoLink;
-        
-        // Reset form
-        contactForm.reset();
-        
-        // Show success message
-        alert('Thank you for your message! Your email client should open now.');
     });
 }
 
