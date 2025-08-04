@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Trung Nghia | Full Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="src/resources/media/svg/favicon.svg">
+    <link rel="stylesheet" href="src/resources/css/home_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 data-key="nav-logo">Trung Nghia</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-key="nav-home">Home</a>
+                <a href="#about" class="nav-link" data-key="nav-about">About</a>
+                <a href="#skills" class="nav-link" data-key="nav-skills">Skills</a>
+                <a href="#projects" class="nav-link" data-key="nav-projects">Projects</a>
+                <a href="#experience" class="nav-link" data-key="nav-experience">Experience</a>
+                <a href="#hobbies" class="nav-link" data-key="nav-hobbies">Hobbies</a>
+                <a href="#contact" class="nav-link" data-key="nav-contact">Contact</a>
+            </div>
+            <div class="language-selector">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ja">JP</button>
+                <button class="lang-btn" data-lang="vi">VI</button>
+            </div>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-controls="navMenu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-overlay" id="navOverlay"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Enhanced SVG background decor -->
+            <img src="src/resources/media/svg/hero-bg.svg" alt="Hero Background" class="hero-svg-bg" style="position:absolute;top:0;left:0;width:100%;height:320px;z-index:0;pointer-events:none;opacity:0.8;" />
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-key="hero-greeting">Hello, I'm</span>
+                        <span class="highlight">Nguyen Trung Nghia</span>
+                    </h1>
+                    <h2 class="hero-subtitle typing-animation" data-key="hero-subtitle">Full Stack Developer</h2>
+                    <p class="hero-description" data-key="hero-description">
+                        Passionate about building robust, efficient, and user-friendly applications. 
+                        I love solving complex problems and creating scalable solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-key="btn-projects">View My Projects</a>
+                        <a href="#contact" class="btn btn-secondary" data-key="btn-contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="./src/resources/media/img/avatar.jpg" alt="Nguyen Trung Nghia">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <img src="src/resources/media/svg/about-icon.svg" alt="About Icon" class="section-icon" />
+                <h2 class="section-title" data-key="about-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-key="about-intro">
+                        I'm a passionate Full Stack Developer with expertise in modern web technologies.
+                        Currently pursuing my degree at Vietnam National University, I specialize in 
+                        building scalable applications using PHP Laravel, Java Spring Boot, and modern JavaScript frameworks.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong data-key="info-name">Name:</strong> Nguyen Trung Nghia</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span><strong data-key="info-birth">Date of Birth:</strong> March 27, 2005</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong data-key="info-location">Location:</strong> Nam Tu Liem, Hanoi, Vietnam</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span><strong data-key="info-university">University:</strong> Vietnam National University</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><strong data-key="info-email">Email:</strong> assassincreed2k1@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p data-key="stat-experience">Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p data-key="stat-projects">Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p data-key="stat-technologies">Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <img src="src/resources/media/svg/skills-icon.svg" alt="Skills Icon" class="section-icon" />
+                <h2 class="section-title" data-key="skills-title">Technical Skills</h2>
+            </div>
+            <div class="skills-container">
+                <!-- Core Technologies -->
+                <div class="skill-category">
+                    <h3 data-key="skills-core">Core Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fab fa-php"></i>
+                            </div>
+                            <span>PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fab fa-laravel"></i>
+                            </div>
+                            <span>Laravel</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span>C++</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <span>Spring Boot</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>MySQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item featured">
+                            <div class="skill-icon">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <span>Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend & Web Technologies -->
+                <div class="skill-category">
+                    <h3 data-key="skills-frontend">Frontend & Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span>Bootstrap</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-wind"></i>
+                            </div>
+                            <span>Tailwind CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span>Vite</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Technologies & Tools -->
+                <div class="skill-category">
+                    <h3 data-key="skills-others">Other Technologies & Tools</h3>
+                    <div class="skills-grid-compact">
+                        <div class="skill-tag">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-tag featured-tech">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-elephant"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-tag featured-tech">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-tag featured-tech">
+                            <i class="fab fa-ubuntu"></i>
+                            <span>Ubuntu</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-cube"></i>
+                            <span>Vite</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-gamepad"></i>
+                            <span>SDL2</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-desktop"></i>
+                            <span>JavaFX</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fab fa-angular"></i>
+                            <span>Java Swing</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-server"></i>
+                            <span>Nginx</span>
+                        </div>
+                        <div class="skill-tag">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Authentication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <img src="src/resources/media/svg/projects-icon.svg" alt="Projects Icon" class="section-icon" />
+                <h2 class="section-title" data-key="projects-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src\resources\media\img\hanaya-shop.png" alt="Hanaya Shop">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/assassincreed2k1/Hanaya-Shop" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="http://www.hanayashop.com/" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🌸 Hanaya Shop - Online Flower Store</h3>
+                            <span class="project-duration">Apr 2025 - Aug 2025</span>
+                        </div>
+                        <p data-key="project-hanaya-desc">A modern, responsive e-commerce platform for selling flowers online. Features comprehensive product management, shopping cart, and order tracking system.</p>
+                        <div class="project-tech">
+                            <span class="tech-featured">Laravel</span>
+                            <span class="tech-featured">MySQL</span>
+                            <span class="tech-featured">Blade</span>
+                            <span class="tech-featured">Docker</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Vite</span>
+                            <span>Bootstrap</span>
+                            <span>Ubuntu</span>
+                            <span>Git</span>
+                           <span>TailwindCSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src\resources\media\img\english-learning.jpg" alt="English Learning Web">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/assassincreed2k1/English-Learning-Web" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/assassincreed2k1/English-Learning-Web" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>📚 English Learning - Online Practice Platform</h3>
+                            <span class="project-duration">Jun 2025 - Present</span>
+                        </div>
+                        <p data-key="project-english-desc">A learning platform for students and teachers to practice and manage English exercises. Features responsive design and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-featured">Java</span>
+                            <span class="tech-featured">Spring Boot</span>
+                            <span class="tech-featured">PostgreSQL</span>
+                            <span>React</span>
+                            <span>TailwindCSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src\resources\media\img\library.jpg" alt="Library Management">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/assassincreed2k1/Library_Management_Application" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/assassincreed2k1/Library_Management_Application" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>📖 Library Management System</h3>
+                            <span class="project-duration">Sep 2024 - Nov 2024</span>
+                        </div>
+                        <p data-key="project-library-desc">Desktop application for managing library operations with JavaFX. Features book management, user registration, and borrow/return tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-featured">Java</span>
+                            <span class="tech-featured">JavaFX</span>
+                            <span class="tech-featured">MySQL</span>
+                            <span>JUnit</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/resources/media/img/t-kun.png" alt="T-kun Journey Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/assassincreed2k1/N_T_Nghia_GAME_2D" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/assassincreed2k1/N_T_Nghia_GAME_2D" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>🎮 T-kun Journey - 2D Adventure Game</h3>
+                            <span class="project-duration">Mar 2024 - Apr 2024</span>
+                        </div>
+                        <p data-key="project-game-desc">A 2D adventure platformer game built with SDL2 and C++. Features character movement, collision detection, and multiple game levels.</p>
+                        <div class="project-tech">
+                            <span class="tech-featured">C++</span>
+                            <span class="tech-featured">SDL2</span>
+                            <span>Game Development</span>
+                            <span>Graphics Programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-key="experience-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-key="exp-student-title">Computer Science Student</h3>
+                        <h4>Vietnam National University</h4>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p data-key="exp-student-desc">Studying Computer Science with focus on software engineering and full-stack development</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-key="exp-freelance-title">Freelance Developer</h3>
+                        <h4>Self-employed</h4>
+                        <span class="timeline-date">2022 - Present</span>
+                        <p data-key="exp-freelance-desc">Developing web applications and providing technical solutions for various clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title" data-key="hobbies-title">Hobbies & Interests</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 data-key="hobby-coding">Coding</h3>
+                    <p data-key="hobby-coding-desc">Always exploring new technologies and frameworks</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 data-key="hobby-gaming">Gaming</h3>
+                    <p data-key="hobby-gaming-desc">Strategy games and competitive programming challenges</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 data-key="hobby-reading">Reading</h3>
+                    <p data-key="hobby-reading-desc">Technical books and industry blogs</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 data-key="hobby-music">Music</h3>
+                    <p data-key="hobby-music-desc">Listening to music while coding</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <img src="src/resources/media/svg/contact-icon.svg" alt="Contact Icon" class="section-icon" />
+                <h2 class="section-title" data-key="contact-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-key="contact-email-title">Email</h3>
+                            <p>assassincreed2k1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-key="contact-phone-title">Phone</h3>
+                            <p>+84 353 295 709</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3 data-key="contact-location-title">Location</h3>
+                            <p>Phuc Tho, Hanoi, Vietnam</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/assassincreed2k1" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nghia.nguyen.trung.670072" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCzkMSzxKMP7D5opHK9e6NcA" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/nguyen-trung-nghia-366842157/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:assassincreed2k1@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" data-placeholder="form-name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" data-placeholder="form-email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" data-placeholder="form-subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" data-placeholder="form-message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-key="btn-send">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="src/resources/media/svg/footer-decor.svg" alt="Footer Decoration" class="footer-decor" />
+                <p>&copy; 2025 Nguyen Trung Nghia. <span data-key="footer-text">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./src/js/controller.js"></script>
+    <script>
+    // Responsive nav hamburger toggle
+    // Thay thế đoạn script cũ bằng code này
+        document.addEventListener('DOMContentLoaded', function () {
+            // Responsive nav hamburger toggle
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const navMenu = document.getElementById('navMenu');
+            const navOverlay = document.getElementById('navOverlay');
+
+            if (!hamburgerBtn || !navMenu || !navOverlay) {
+                console.error('Navigation elements not found');
+                return;
+            }
+
+            function toggleNav() {
+                const expanded = hamburgerBtn.getAttribute('aria-expanded') === 'true';
+                hamburgerBtn.setAttribute('aria-expanded', !expanded);
+                hamburgerBtn.classList.toggle('active');
+                navMenu.classList.toggle('nav-menu-active');
+                navMenu.classList.toggle('active');
+                navOverlay.classList.toggle('active');
+                document.body.classList.toggle('nav-open');
+            }
+
+            function closeNav() {
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+                hamburgerBtn.classList.remove('active');
+                navMenu.classList.remove('nav-menu-active');
+                navMenu.classList.remove('active');
+                navOverlay.classList.remove('active');
+                document.body.classList.remove('nav-open');
+            }
+
+            // Event listeners
+            hamburgerBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Hamburger clicked'); // Debug log
+                toggleNav();
+            });
+
+            navOverlay.addEventListener('click', closeNav);
+
+            // Close nav on link click (mobile)
+            const navLinks = navMenu.querySelectorAll('.nav-link');
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', closeNav);
+            });
+
+            // Close nav on escape key
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                    closeNav();
+                }
+            });
+
+            // Ensure hamburger is visible on mobile
+            function checkMobile() {
+                if (window.innerWidth <= 768) {
+                    hamburgerBtn.style.display = 'flex';
+                } else {
+                    hamburgerBtn.style.display = 'none';
+                    closeNav(); // Close menu if window is resized to desktop
+                }
+            }
+
+            // Check on load and resize
+            checkMobile();
+            window.addEventListener('resize', checkMobile);
+        });
+    </script>
+</body>
+
+</html>
