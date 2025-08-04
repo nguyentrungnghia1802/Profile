@@ -23,7 +23,7 @@ Website sẽ tự động build và deploy mỗi khi bạn push lên nhánh `mai
 
 ### Tuỳ chỉnh
 - Sửa nội dung, hình ảnh, SVG theo ý muốn
-- Đẩy lên `main` để cập nhật website
+- Đẩy lên `main` sẽ tự động cập nhật website
 
 ---
 **Chúc bạn thành công!**
