@@ -1,0 +1,99 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 900 >>
+stream
+BT
+/F1 24 Tf
+70 800 Td
+(Nguyen Trung Nghia) Tj
+0 -32 Td
+/F2 14 Tf
+(Full Stack Developer & DevOps Engineer) Tj
+0 -24 Td
+/F2 12 Tf
+(Email: assassincreed2k1@gmail.com   |   Phone: +84 353 295 709) Tj
+0 -18 Td
+(Location: Phuc Tho, Hanoi, Vietnam   |   University: Vietnam National University) Tj
+0 -30 Td
+/F1 16 Tf
+(About Me) Tj
+0 -20 Td
+/F2 11 Tf
+(I am a passionate Full Stack Developer and DevOps Engineer with expertise in) Tj
+0 -14 Td
+(modern web technologies and infrastructure automation. I specialize in building) Tj
+0 -14 Td
+(and deploying scalable applications using PHP Laravel, Java Spring Boot, modern) Tj
+0 -14 Td
+(JavaScript frameworks, and comprehensive DevOps practices with Docker, Ubuntu,) Tj
+0 -14 Td
+(and CI/CD pipelines.) Tj
+0 -24 Td
+/F1 16 Tf
+(Technical Skills) Tj
+0 -20 Td
+/F2 11 Tf
+(Programming: PHP, Java, JavaScript, Python, C++) Tj
+0 -14 Td
+(Frameworks: Laravel, Spring Boot, React, Vue.js, Node.js) Tj
+0 -14 Td
+(DevOps: Docker, Ubuntu, CI/CD, Infrastructure Automation) Tj
+0 -14 Td
+(Database: MySQL, PostgreSQL, MongoDB) Tj
+0 -14 Td
+(Tools: Git, VS Code, Postman, Figma) Tj
+0 -24 Td
+/F1 16 Tf
+(Featured Projects) Tj
+0 -20 Td
+/F2 11 Tf
+(- Hanaya Shop: Modern e-commerce platform for selling flowers online) Tj
+0 -14 Td
+(- English Learning Web: Platform for English exercises and management) Tj
+0 -14 Td
+(- Library Management: Desktop app for library operations with JavaFX) Tj
+0 -14 Td
+(- T-Kun Adventure Game: 2D platformer game with SDL2 and C++) Tj
+0 -24 Td
+/F1 16 Tf
+(Experience) Tj
+0 -20 Td
+/F2 11 Tf
+(2023 - Present: Information Technology Student, Vietnam National University) Tj
+0 -14 Td
+(2022 - Present: Freelance Developer - Web applications & technical solutions) Tj
+0 -24 Td
+/F1 12 Tf
+(Portfolio generated on: 2025-08-06) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000010 00000 n 
+0000000053 00000 n 
+0000000106 00000 n 
+0000000251 00000 n 
+0000001100 00000 n 
+0000001170 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1234
+%%EOF
