@@ -1,7 +1,7 @@
 
 # Personal Portfolio Website
 
-**GitHub Repository:** https://github.com/assassincreed2k1/Profile
+**Link:** [https://github.com/assassincreed2k1/Profile](https://assassincreed2k1.github.io/Profile/)
 
 ---
 
