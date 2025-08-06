@@ -5,7 +5,9 @@
 
 ---
 
-## 🇻🇳 Tiếng Việt
+
+<details>
+<summary>🇻🇳 <strong>Tiếng Việt</strong></summary>
 
 ### Mục đích dự án
 ①　Thực hành và nâng cao kỹ năng lập trình web hiện đại, responsive.
@@ -17,11 +19,14 @@ Personal Portfolio Website là trang web cá nhân do chính tôi phát triển,
 
 Các tính năng nổi bật gồm: chuyển đổi ngôn ngữ động, hiệu ứng animation, trình bày kỹ năng bằng progress bar, giới thiệu dự án, timeline kinh nghiệm, sở thích, form liên hệ và theme tối.
 
+
 ### Điểm nổi bật
 - Đa ngôn ngữ (Việt/Anh/Nhật), chuyển đổi realtime
 - Thiết kế hiện đại, responsive, tối ưu mobile
 - Hiệu ứng động, trải nghiệm người dùng mượt mà
 - Tối ưu tốc độ tải trang, code nhẹ
+- <strong>Nhận tin nhắn qua EmailJS</strong>: Form liên hệ sử dụng EmailJS để gửi trực tiếp lời nhắn của bạn tới email cá nhân của tôi mà không cần backend server.
+- <strong>Download PDF</strong>: Bạn có thể tải về bản PDF Portfolio cá nhân trực tiếp từ website (nút "Download PDF").
 
 ### Công nghệ sử dụng
 - HTML5, CSS3, JavaScript (ES6+), Font Awesome, Google Fonts
@@ -47,9 +52,13 @@ Các tính năng nổi bật gồm: chuyển đổi ngôn ngữ động, hiệu 
 - Trang chi tiết dự án
 - Tích hợp Google Analytics, SEO
 
+</details>
+
 ---
 
-## 🇬🇧 English
+
+<details>
+<summary>🇬🇧 <strong>English</strong></summary>
 
 ### Project Purpose
 ①　Practice and improve modern web programming and responsive design skills.
@@ -61,11 +70,14 @@ Personal Portfolio Website is a modern, interactive personal site I developed to
 
 Key features include: dynamic language switching, animation effects, skill progress bars, project showcase, experience timeline, hobbies, contact form, and dark theme.
 
+
 ### Highlights
 - Multilingual (VN/EN/JP) with realtime switching
 - Modern, responsive, mobile-first design
 - Interactive animations and smooth UX
 - Optimized for fast loading and lightweight code
+- <strong>Contact via EmailJS</strong>: The contact form uses EmailJS to send your message directly to my email without a backend server.
+- <strong>Download PDF</strong>: You can download my Portfolio as a PDF directly from the website ("Download PDF" button).
 
 ### Technologies Used
 - HTML5, CSS3, JavaScript (ES6+), Font Awesome, Google Fonts
@@ -91,9 +103,13 @@ Key features include: dynamic language switching, animation effects, skill progr
 - Project detail pages
 - Google Analytics, SEO
 
+</details>
+
 ---
 
-## 🇯🇵 日本語
+
+<details>
+<summary>🇯🇵 <strong>日本語</strong></summary>
 
 ## プロジェクトの目的
 ①　現代的なWeb技術とレスポンシブデザインスキルを実践・向上させること
@@ -106,6 +122,7 @@ Personal Portfolio Website は、私が自ら開発したモダンでインタ�
 本サイトでは、多言語対応（日本語・英語・ベトナム語）により、グローバルな視聴者に向けて自己紹介を行うことができます。アニメーション効果、スムーズなスクロール、レスポンシブデザインを駆使し、訪問者に印象的なユーザー体験を提供します。
 
 また、技術スキルの可視化、プロジェクト紹介、経歴表示、趣味・関心事の共有など、個人ブランディングに必要な要素を統合的に管理できる構成となっています。モバイルファーストのアプローチにより、あらゆるデバイスで最適な表示を実現しています。
+
 
 ## こだわりポイント
 ✅ **多言語対応による国際性**
@@ -122,6 +139,8 @@ CSS Grid・Flexbox を活用したレスポンシブレイアウト、グラデ�
 
 ✅ **パフォーマンス最適化**
 軽量なコード設計、効率的なCSS、最適化されたアニメーションにより、高速な読み込み速度を実現。
+✅ <strong>EmailJSによるメッセージ受信</strong>: お問い合わせフォームはEmailJSを利用し、サーバー不要で直接メールを受信できます。
+✅ <strong>PDFダウンロード</strong>: Webサイト上の「Download PDF」ボタンからポートフォリオPDFを直接ダウンロード可能。
 
 ## 使用した技術
 **フロントエンド:** HTML5、CSS3、JavaScript (ES6+)、Font Awesome、Google Fonts
@@ -159,3 +178,4 @@ CSS Grid・Flexbox を活用したレスポンシブレイアウト、グラデ�
 - プロジェクト詳細ページの実装
 - Google Analytics による訪問者分析
 - SEO最適化の強化
+</details>
