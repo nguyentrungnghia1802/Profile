@@ -267,6 +267,26 @@ body.nav-open {
     transform: translateY(-3px);
 }
 
+.btn-download {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    color: #fff;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 10px 30px rgba(40, 167, 69, 0.3);
+}
+
+.btn-download:hover {
+    background: linear-gradient(45deg, #20c997, #28a745);
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(40, 167, 69, 0.5);
+}
+
+.btn-download i {
+    font-size: 1rem;
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
@@ -1265,6 +1285,11 @@ body.nav-open {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Hide PDF download button on mobile */
+    .btn-download {
+        display: none !important;
     }
 
     /* Add background for better readability on mobile */

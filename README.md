@@ -1,7 +1,7 @@
 
 # Personal Portfolio Website
 
-**Link:** [https://github.com/assassincreed2k1/Profile](https://assassincreed2k1.github.io/Profile/)
+**GitHub Repository:** https://github.com/assassincreed2k1/Profile
 
 ---
 
@@ -139,9 +139,7 @@ CSS Grid・Flexbox を活用したレスポンシブレイアウト、グラデ�
 
 ✅ **パフォーマンス最適化**
 軽量なコード設計、効率的なCSS、最適化されたアニメーションにより、高速な読み込み速度を実現。
-
 ✅ <strong>EmailJSによるメッセージ受信</strong>: お問い合わせフォームはEmailJSを利用し、サーバー不要で直接メールを受信できます。
-
 ✅ <strong>PDFダウンロード</strong>: Webサイト上の「Download PDF」ボタンからポートフォリオPDFを直接ダウンロード可能。
 
 ## 使用した技術

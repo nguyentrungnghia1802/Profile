@@ -18,6 +18,7 @@ const translations = {
         'hero-description': 'Passionate about building robust, efficient, and user-friendly applications. I love solving complex problems and creating scalable solutions.',
         'btn-projects': 'View My Work',
         'btn-contact': 'Contact Me',
+        'btn-download-pdf': 'Download PDF',
 
         // About Section
         'about-title': 'About Me',
@@ -94,6 +95,7 @@ const translations = {
         'hero-description': '堅牢で効率的、ユーザーフレンドリーなアプリケーションの構築に情熱を注いでいます。複雑な問題を解決し、スケーラブルなソリューションを作成することが大好きです。',
         'btn-projects': '私の作品を見る',
         'btn-contact': 'お問い合わせ',
+        'btn-download-pdf': 'PDF ダウンロード',
 
         // About Section
         'about-title': '私について',
@@ -170,6 +172,7 @@ const translations = {
         'hero-description': 'Đam mê xây dựng các ứng dụng mạnh mẽ, hiệu quả và thân thiện với người dùng. Tôi thích giải quyết các vấn đề phức tạp và tạo ra các giải pháp có thể mở rộng.',
         'btn-projects': 'Xem tác phẩm của tôi',
         'btn-contact': 'Liên hệ với tôi',
+        'btn-download-pdf': 'Tải PDF',
 
         // About Section
         'about-title': 'Về tôi',
@@ -588,4 +591,52 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       block: "start",
     });
   });
+});
+
+// PDF Download functionality
+function initializePdfDownload() {
+    const downloadBtn = document.getElementById('downloadPdfBtnBottom');
+    if (!downloadBtn) return;
+    // Check if device is mobile
+    function isMobileDevice() {
+        return window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+    // Show/hide button based on device type
+    function toggleDownloadButton() {
+        if (isMobileDevice()) {
+            downloadBtn.style.display = 'none';
+        } else {
+            downloadBtn.style.display = 'flex';
+        }
+    }
+    // Initial check
+    toggleDownloadButton();
+    // Listen for window resize
+    window.addEventListener('resize', toggleDownloadButton);
+    // Download functionality
+    downloadBtn.addEventListener('click', function() {
+        // Create download link
+        const link = document.createElement('a');
+        link.href = './src/resources/documents/Nguyen_Trung_Nghia_Portfolio.pdf';
+        link.download = 'Nguyen_Trung_Nghia_Portfolio.pdf';
+        link.style.display = 'none';
+        // Add to document, click, then remove
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        // Show feedback
+        const originalText = downloadBtn.innerHTML;
+        downloadBtn.innerHTML = '<i class="fas fa-check"></i> Downloaded!';
+        downloadBtn.style.background = 'linear-gradient(45deg, #20c997, #28a745)';
+        setTimeout(() => {
+            downloadBtn.innerHTML = originalText;
+            downloadBtn.style.background = 'linear-gradient(45deg, #28a745, #20c997)';
+        }, 2000);
+    });
+}
+
+// Initialize PDF download when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Small delay to ensure all elements are rendered
+    setTimeout(initializePdfDownload, 100);
 });
