@@ -44,6 +44,8 @@ const translations = {
         'project-english-desc': 'A learning platform for students and teachers to practice and manage English exercises. Features responsive design and user-friendly interface.',
         'project-library-desc': 'Desktop application for managing library operations with JavaFX. Features book management, user registration, and borrow/return tracking.',
         'project-game-desc': 'A 2D adventure platformer game built with SDL2 and C++. Features character movement, collision detection, and multiple game levels.',
+        'project-yoga-title': '🧘 Yoga Website - Yoga/Gym Center',
+        'project-yoga-desc': 'Yoga/Gym Center website for class registration, info management, and contact. Modern UI, smooth animation, SQL Server backend.',
 
         // Experience Section
         'experience-title': 'Experience & Education',
@@ -121,6 +123,8 @@ const translations = {
         'project-english-desc': '学生と教師が英語の練習問題を練習・管理するための学習プラットフォーム。レスポンシブデザインとユーザーフレンドリーなインターフェースを特徴としています。',
         'project-library-desc': 'JavaFXを使用した図書館運営のためのデスクトップアプリケーション。書籍管理、ユーザー登録、貸出・返却追跡機能を備えています。',
         'project-game-desc': 'SDL2とC++で作られた2Dアドベンチャープラットフォーマーゲーム。キャラクターの移動、衝突検出、複数のゲームレベルを特徴としています。',
+        'project-yoga-title': '🧘 ヨガウェブサイト - ヨガ/ジムセンター',
+        'project-yoga-desc': 'ヨガ/ジムセンターのウェブサイト。クラス登録、情報管理、連絡機能。モダンなUI、スムーズなアニメーション、SQL Serverバックエンド。',
 
         // Experience Section
         'experience-title': '経験と教育',
@@ -198,6 +202,8 @@ const translations = {
         'project-english-desc': 'Nền tảng học tập cho học sinh và giáo viên thực hành và quản lý bài tập tiếng Anh. Có thiết kế responsive và giao diện thân thiện người dùng.',
         'project-library-desc': 'Ứng dụng desktop quản lý hoạt động thư viện với JavaFX. Có tính năng quản lý sách, đăng ký người dùng và theo dõi mượn/trả.',
         'project-game-desc': 'Game phiêu lưu 2D được xây dựng bằng SDL2 và C++. Có tính năng di chuyển nhân vật, phát hiện va chạm và nhiều cấp độ game.',
+        'project-yoga-title': '🧘 Yoga Website - Trung tâm Yoga/Gym',
+        'project-yoga-desc': 'Website trung tâm Yoga/Gym cho đăng ký lớp học, quản lý thông tin và liên hệ. Giao diện hiện đại, hiệu ứng mượt mà, backend SQL Server.',
 
         // Experience Section
         'experience-title': 'Kinh nghiệm & Học vấn',
