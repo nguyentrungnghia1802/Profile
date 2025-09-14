@@ -312,10 +312,26 @@ languageButtons.forEach(button => {
 // Navigation functionality
 function initializeNavigation() {
     // Hamburger menu toggle
-    if (hamburger) {
+    const navOverlay = document.querySelector('.nav-overlay');
+    
+    if (hamburger && navMenu) {
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            if (navOverlay) {
+                navOverlay.classList.toggle('active');
+            }
+            document.body.classList.toggle('nav-open');
+        });
+    }
+    
+    // Close menu when clicking overlay
+    if (navOverlay) {
+        navOverlay.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+            navOverlay.classList.remove('active');
+            document.body.classList.remove('nav-open');
         });
     }
     
@@ -337,6 +353,10 @@ function initializeNavigation() {
             if (navMenu.classList.contains('active')) {
                 hamburger.classList.remove('active');
                 navMenu.classList.remove('active');
+                if (document.querySelector('.nav-overlay')) {
+                    document.querySelector('.nav-overlay').classList.remove('active');
+                }
+                document.body.classList.remove('nav-open');
             }
         });
     });
