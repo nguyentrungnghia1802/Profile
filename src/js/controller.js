@@ -22,7 +22,7 @@ const translations = {
 
         // About Section
         'about-title': 'About Me',
-        'about-intro': 'I\'m a passionate Full Stack Developer and DevOps Engineer with expertise in modern web technologies and infrastructure automation. Currently pursuing my degree at Vietnam National University, I specialize in building and deploying scalable applications using PHP Laravel, Java Spring Boot, modern JavaScript frameworks, and comprehensive DevOps practices with Docker, Ubuntu, and CI/CD pipelines.',
+        'about-intro': 'I\'m a passionate Full Stack Developer and DevOps Engineer with expertise in modern web technologies and infrastructure automation. Currently pursuing my degree at Vietnam National University, I specialize in building and deploying scalable applications using Java Spring Boot, NestJS, React, modern web frameworks, and comprehensive DevOps practices with Docker, Nginx, Redis, Cloudflare, and CI/CD pipelines.',
         'info-name': 'Name:',
         'info-birth': 'Date of Birth:',
         'info-location': 'Location:',
@@ -33,13 +33,17 @@ const translations = {
         'stat-technologies': 'Technologies',
 
         // Skills Section
-        'skills-title': 'Technical Skills',
-        'skills-programming': 'Programming Languages',
-        'skills-frameworks': 'Frameworks & Libraries',
-        'skills-database': 'Database & DevOps',
+        'skills-title': 'Core Tech Stack',
+        'skills-languages': 'Languages',
+        'skills-backend': 'Backend',
+        'skills-frontend': 'Frontend',
+        'skills-databases': 'Databases',
+        'skills-devops': 'DevOps & Infrastructure',
+        'skills-platforms': 'Platforms & Integrations',
 
         // Projects Section
         'projects-title': 'Featured Projects',
+        'project-line-queue-desc': 'LINE Smart Queue Assistant is a queue management, booking, order, payment, and customer notification platform for stores, salons, clinics, and service counters in Japan. Customers use a stable Branch QR and LINE instead of standing at the counter. Businesses manage Organizations, Branches, Queues, catalogs, stock, Staff, and Tickets via role-based workspaces.',
         'project-hanaya-desc': 'A modern, responsive e-commerce platform for selling flowers online. Features comprehensive product management, shopping cart, and order tracking system.',
         'project-english-desc': 'A learning platform for students and teachers to practice and manage English exercises. Features responsive design and user-friendly interface.',
         'project-library-desc': 'Desktop application for managing library operations with JavaFX. Features book management, user registration, and borrow/return tracking.',
@@ -50,18 +54,16 @@ const translations = {
         // Experience Section
         'experience-title': 'Experience & Education',
         'exp-student-title': 'Information Technology Student',
-        'exp-student-desc': 'Studying Information Technology with focus on software engineering, full-stack development, and DevOps engineering (Docker, Ubuntu, CI/CD, Infrastructure Automation)',
+        'exp-student-desc': 'Studying Information Technology with focus on software engineering, full-stack development, and DevOps engineering (Docker, Nginx, Cloudflare, CI/CD, Infrastructure Automation)',
         'exp-freelance-title': 'Freelance Developer',
         'exp-freelance-desc': 'Developing web applications and providing technical solutions for various clients',
 
         // Hobbies Section
         'hobbies-title': 'Hobbies & Interests',
-        'hobby-coding': 'Coding',
-        'hobby-coding-desc': 'Always exploring new technologies and frameworks',
         'hobby-gaming': 'Gaming',
         'hobby-gaming-desc': 'Strategy games and competitive programming challenges',
-        'hobby-reading': 'Reading',
-        'hobby-reading-desc': 'Technical books and industry blogs',
+        'hobby-sport': 'Sport',
+        'hobby-sport-desc': 'Staying active and healthy through physical activities and sports',
         'hobby-music': 'Music',
         'hobby-music-desc': 'Listening to music while coding',
 
@@ -101,7 +103,7 @@ const translations = {
 
         // About Section
         'about-title': '私について',
-        'about-intro': '私は現代のウェブ技術とインフラ自動化に精通した情熱的なフルスタック開発者兼DevOpsエンジニアです。現在、ベトナム国立大学で学位を取得中で、PHP Laravel、Java Spring Boot、現代のJavaScriptフレームワーク、Docker、Ubuntu、CI/CDパイプラインを使用した包括的なDevOps実践を用いてスケーラブルなアプリケーションの構築と展開を専門としています。',
+        'about-intro': '私は現代のウェブ技術とインフラ自動化に精通した情熱的なフルスタック開発者兼DevOpsエンジニアです。現在、ベトナム国立大学で学位を取得中で、Java Spring Boot、NestJS、React、Docker、Nginx、Redis、Cloudflare、CI/CDパイプラインを使用した包括的なDevOps実践を用いてスケーラブルなアプリケーションの構築と展開を専門としています。',
         'info-name': '名前:',
         'info-birth': '生年月日:',
         'info-location': '場所:',
@@ -112,13 +114,17 @@ const translations = {
         'stat-technologies': '技術',
 
         // Skills Section
-        'skills-title': '技術スキル',
-        'skills-programming': 'プログラミング言語',
-        'skills-frameworks': 'フレームワーク & ライブラリ',
-        'skills-database': 'データベース & DevOps',
+        'skills-title': 'コア技術スタック',
+        'skills-languages': 'プログラミング言語',
+        'skills-backend': 'バックエンド',
+        'skills-frontend': 'フロントエンド',
+        'skills-databases': 'データベース',
+        'skills-devops': 'DevOps & インフラ',
+        'skills-platforms': 'プラットフォーム & 連携',
 
         // Projects Section
         'projects-title': '注目のプロジェクト',
+        'project-line-queue-desc': 'LINE Smart Queue Assistantは、日本の店舗、サロン、クリニック、サービスカウンター向けの順番待ち、予約、注文、決済、顧客通知管理プラットフォーム。お客様は店頭に並ぶ代わりに店舗の安定したQRとLINEを使用します。企業は役割に応じたワークスペースを通じて組織、店舗、キュー、カタログ、在庫、スタッフ、チケットを管理します。',
         'project-hanaya-desc': 'オンラインで花を販売するためのモダンでレスポンシブなeコマースプラットフォーム。包括的な商品管理、ショッピングカート、注文追跡システムを備えています。',
         'project-english-desc': '学生と教師が英語の練習問題を練習・管理するための学習プラットフォーム。レスポンシブデザインとユーザーフレンドリーなインターフェースを特徴としています。',
         'project-library-desc': 'JavaFXを使用した図書館運営のためのデスクトップアプリケーション。書籍管理、ユーザー登録、貸出・返却追跡機能を備えています。',
@@ -129,18 +135,16 @@ const translations = {
         // Experience Section
         'experience-title': '経験と教育',
         'exp-student-title': '情報技術学生',
-        'exp-student-desc': 'ソフトウェアエンジニアリング、フルスタック開発、DevOpsエンジニアリング（Docker、Ubuntu、CI/CD、インフラ自動化）に焦点を当てた情報技術を学習',
+        'exp-student-desc': 'ソフトウェアエンジニアリング、フルスタック開発、DevOpsエンジニアリング（Docker、Nginx、Cloudflare、CI/CD、インフラ自動化）に焦点を当てた情報技術を学習',
         'exp-freelance-title': 'フリーランス開発者',
         'exp-freelance-desc': 'ウェブアプリケーションの開発と様々なクライアントへの技術ソリューションの提供',
 
         // Hobbies Section
         'hobbies-title': '趣味と興味',
-        'hobby-coding': 'コーディング',
-        'hobby-coding-desc': '常に新しい技術とフレームワークを探求',
         'hobby-gaming': 'ゲーム',
-        'hobby-gaming-desc': 'ストラテジーゲームと競技プログラミングチャレンジ',
-        'hobby-reading': '読書',
-        'hobby-reading-desc': '技術書と業界ブログ',
+        'hobby-gaming-desc': 'ストラテジーゲームと競技プログラミング',
+        'hobby-sport': 'スポーツ',
+        'hobby-sport-desc': '運動やスポーツを通じて健康でアクティブに過ごす',
         'hobby-music': '音楽',
         'hobby-music-desc': 'コーディング中に音楽を聴く',
 
@@ -180,7 +184,7 @@ const translations = {
 
         // About Section
         'about-title': 'Về tôi',
-        'about-intro': 'Tôi là một nhà phát triển Full Stack và DevOps Engineer đầy đam mê với chuyên môn về các công nghệ web hiện đại và tự động hóa hạ tầng. Hiện đang theo học tại Đại học Quốc gia Việt Nam, tôi chuyên xây dựng và triển khai các ứng dụng có thể mở rộng bằng PHP Laravel, Java Spring Boot, các framework JavaScript hiện đại, và các thực hành DevOps toàn diện với Docker, Ubuntu, và CI/CD pipelines.',
+        'about-intro': 'Tôi là một nhà phát triển Full Stack và DevOps Engineer đầy đam mê với chuyên môn về các công nghệ web hiện đại và tự động hóa hạ tầng. Hiện đang theo học tại Đại học Quốc gia Việt Nam, tôi chuyên xây dựng và triển khai các ứng dụng có thể mở rộng bằng Java Spring Boot, NestJS, React, các framework web hiện đại, và các thực hành DevOps toàn diện với Docker, Nginx, Redis, Cloudflare, và CI/CD pipelines.',
         'info-name': 'Tên:',
         'info-birth': 'Ngày sinh:',
         'info-location': 'Địa điểm:',
@@ -191,13 +195,17 @@ const translations = {
         'stat-technologies': 'Công nghệ',
 
         // Skills Section
-        'skills-title': 'Kỹ năng kỹ thuật',
-        'skills-programming': 'Ngôn ngữ lập trình',
-        'skills-frameworks': 'Framework & Thư viện',
-        'skills-database': 'Cơ sở dữ liệu & DevOps',
+        'skills-title': 'Core Tech Stack',
+        'skills-languages': 'Languages',
+        'skills-backend': 'Backend',
+        'skills-frontend': 'Frontend',
+        'skills-databases': 'Databases',
+        'skills-devops': 'DevOps & Infrastructure',
+        'skills-platforms': 'Platforms & Integrations',
 
         // Projects Section
         'projects-title': 'Dự án nổi bật',
+        'project-line-queue-desc': 'LINE Smart Queue Assistant là nền tảng quản lý hàng đợi, đặt chỗ, đơn hàng, nền tảng thanh toán và thông báo khách hàng dành cho cửa hàng, salon, phòng khám và quầy dịch vụ tại Nhật Bản. Khách dùng một QR ổn định của Branch và LINE thay vì phải đứng cạnh quầy. Doanh nghiệp quản lý Organization, Branch, Queue, danh mục, stock, Staff và Ticket bằng các workspace theo vai trò.',
         'project-hanaya-desc': 'Nền tảng thương mại điện tử hiện đại, responsive để bán hoa trực tuyến. Có tính năng quản lý sản phẩm toàn diện, giỏ hàng và hệ thống theo dõi đơn hàng.',
         'project-english-desc': 'Nền tảng học tập cho học sinh và giáo viên thực hành và quản lý bài tập tiếng Anh. Có thiết kế responsive và giao diện thân thiện người dùng.',
         'project-library-desc': 'Ứng dụng desktop quản lý hoạt động thư viện với JavaFX. Có tính năng quản lý sách, đăng ký người dùng và theo dõi mượn/trả.',
@@ -208,18 +216,16 @@ const translations = {
         // Experience Section
         'experience-title': 'Kinh nghiệm & Học vấn',
         'exp-student-title': 'Sinh viên Công nghệ thông tin',
-        'exp-student-desc': 'Học ngành Công nghệ thông tin tập trung vào kỹ thuật phần mềm, phát triển full-stack, và kỹ thuật DevOps (Docker, Ubuntu, CI/CD, Tự động hóa hạ tầng)',
+        'exp-student-desc': 'Học ngành Công nghệ thông tin tập trung vào kỹ thuật phần mềm, phát triển full-stack, và kỹ thuật DevOps (Docker, Nginx, Cloudflare, CI/CD, Tự động hóa hạ tầng)',
         'exp-freelance-title': 'Nhà phát triển Freelance',
         'exp-freelance-desc': 'Phát triển ứng dụng web và cung cấp giải pháp kỹ thuật cho nhiều khách hàng',
 
         // Hobbies Section
         'hobbies-title': 'Sở thích & Quan tâm',
-        'hobby-coding': 'Lập trình',
-        'hobby-coding-desc': 'Luôn khám phá các công nghệ và framework mới',
         'hobby-gaming': 'Game',
         'hobby-gaming-desc': 'Game chiến lược và thách thức lập trình thi đấu',
-        'hobby-reading': 'Đọc sách',
-        'hobby-reading-desc': 'Sách kỹ thuật và blog ngành',
+        'hobby-sport': 'Thể thao',
+        'hobby-sport-desc': 'Rèn luyện thể thao để duy trì sức khỏe và năng lượng tích cực',
         'hobby-music': 'Âm nhạc',
         'hobby-music-desc': 'Nghe nhạc khi lập trình',
 
